@@ -7,6 +7,7 @@ $(document).ready(function () {
 
 
     function displayGifInfo() {
+
         gif = $(this).attr("data-name");
         queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=dc6zaTOxFJmzC&limit=10"
 
